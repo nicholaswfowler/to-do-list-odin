@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <button class="add-new-project">ADD NEW PROJECT</button>
+    <form id="new-project-form">
+        <div class="form-container">
+            <div class="form-input-div">
+                <label>Title: 
+                    <input type="text" placeholder="Enter Project Title" id="title" name="title" required>
+                </label>
+            </div>
+            <button class="submit-new-project">Submit</button>
+        </div>
+    </form>
+    <div class="projects"></div>
+
+    <form class="new-to-do-form">
+        <div class="form-container">
+            <div class="form-input-div">
+                <label>Title: 
+                    <input type="text" placeholder="Enter Project Title" id="title" name="title" required>
+                </label>
+            </div>
+            <div class="form-input-div">
+                <label>Description: 
+                    <input type="text" placeholder="Enter Description" id="desc" name="desc" required>
+                </label>
+            </div>
+            <div class="form-input-div">
+                <label>Due Date: 
+                    <input type="text" placeholder="Enter Due Date" id="date" name="date" required>
+                </label>
+            </div>
+            <div class="form-input-div">
+                <label>Priority(High, Medium, Low): 
+                    <input type="text" placeholder="Enter Priority" id="priority" name="priority" required>
+                </label>
+            </div>
+            <button class="submit-to-do">Submit</button>
+        </div>
+    </form>
+    <script src="./bundle.js"></script>
+</body>
+</html>
